@@ -1,0 +1,15 @@
+C:\Users\Blynchik\Desktop\GB Education\C#\Seminars\bin\Debug\net6.0\Seminars.exe
+C:\Users\Blynchik\Desktop\GB Education\C#\Seminars\bin\Debug\net6.0\Seminars.deps.json
+C:\Users\Blynchik\Desktop\GB Education\C#\Seminars\bin\Debug\net6.0\Seminars.runtimeconfig.json
+C:\Users\Blynchik\Desktop\GB Education\C#\Seminars\bin\Debug\net6.0\Seminars.dll
+C:\Users\Blynchik\Desktop\GB Education\C#\Seminars\bin\Debug\net6.0\Seminars.pdb
+C:\Users\Blynchik\Desktop\GB Education\C#\Seminars\obj\Debug\net6.0\Seminars.csproj.AssemblyReference.cache
+C:\Users\Blynchik\Desktop\GB Education\C#\Seminars\obj\Debug\net6.0\Seminars.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Blynchik\Desktop\GB Education\C#\Seminars\obj\Debug\net6.0\Seminars.AssemblyInfoInputs.cache
+C:\Users\Blynchik\Desktop\GB Education\C#\Seminars\obj\Debug\net6.0\Seminars.AssemblyInfo.cs
+C:\Users\Blynchik\Desktop\GB Education\C#\Seminars\obj\Debug\net6.0\Seminars.csproj.CoreCompileInputs.cache
+C:\Users\Blynchik\Desktop\GB Education\C#\Seminars\obj\Debug\net6.0\Seminars.dll
+C:\Users\Blynchik\Desktop\GB Education\C#\Seminars\obj\Debug\net6.0\refint\Seminars.dll
+C:\Users\Blynchik\Desktop\GB Education\C#\Seminars\obj\Debug\net6.0\Seminars.pdb
+C:\Users\Blynchik\Desktop\GB Education\C#\Seminars\obj\Debug\net6.0\Seminars.genruntimeconfig.cache
+C:\Users\Blynchik\Desktop\GB Education\C#\Seminars\obj\Debug\net6.0\ref\Seminars.dll
