@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-01-25T07:12:26.908825500Z</date>
+  <millis>1674630746908</millis>
+  <nanos>825500</nanos>
+  <sequence>0</sequence>
+  <logger>HW2</logger>
+  <level>INFO</level>
+  <class>HW2</class>
+  <method>getStringBuilder</method>
+  <thread>1</thread>
+  <message>Получаем строку для записи</message>
+</record>
+<record>
+  <date>2023-01-25T07:12:26.967352100Z</date>
+  <millis>1674630746967</millis>
+  <nanos>352100</nanos>
+  <sequence>1</sequence>
+  <logger>HW2</logger>
+  <level>INFO</level>
+  <class>HW2</class>
+  <method>getStringBuilder</method>
+  <thread>1</thread>
+  <message>Получили строку для записи</message>
+</record>
+<record>
+  <date>2023-01-25T07:12:26.968344100Z</date>
+  <millis>1674630746968</millis>
+  <nanos>344100</nanos>
+  <sequence>2</sequence>
+  <logger>HW2</logger>
+  <level>INFO</level>
+  <class>HW2</class>
+  <method>writeToFile</method>
+  <thread>1</thread>
+  <message>Начинаем запись в файл</message>
+</record>
+<record>
+  <date>2023-01-25T07:12:26.969335700Z</date>
+  <millis>1674630746969</millis>
+  <nanos>335700</nanos>
+  <sequence>3</sequence>
+  <logger>HW2</logger>
+  <level>INFO</level>
+  <class>HW2</class>
+  <method>writeToFile</method>
+  <thread>1</thread>
+  <message>Запись завершена</message>
+</record>
+</log>
