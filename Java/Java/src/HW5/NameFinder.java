@@ -22,7 +22,8 @@ public class NameFinder {
     }
 
     public TreeMap<Integer, List<String>> getCollisions(String str) {
-        collisions = new TreeMap<>();
+        collisions = new TreeMap<>((o1, o2) -> Integer.compare(o2,o1));
+
         for (String name : getNames(getFullNames(str))) {
             int repeats = 0;
 
