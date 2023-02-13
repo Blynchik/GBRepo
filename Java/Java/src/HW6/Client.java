@@ -1,8 +1,9 @@
 package HW6;
 
+import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 import java.util.stream.Collectors;
-
 public class Client {
     static Config config;
     static Scanner scanner;
@@ -70,7 +71,8 @@ public class Client {
                 int minColor = client.askCriteria("Введите одно из значений:\n" +
                         config.getColorMap());
 
-                System.out.println(config.getLaptops().stream()
+                System.out.println(
+                        config.getLaptops().stream()
                         .filter(n -> n.getRam() >= minRam)
                         .filter(n -> n.getHdd() >= minHDD)
                         .filter(n -> n.getOs().equals(config.getOsMap().get(minOs)))
