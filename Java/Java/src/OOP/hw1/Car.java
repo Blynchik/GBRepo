@@ -65,7 +65,7 @@ public class Car {
 
     public void nitro() {
 
-        if (Math.random()*6 <= power) {
+        if (Math.random() * 6 <= power) {
             currentSpeed += 60;
             System.out.printf("%s рванула вперед\n", model);
         }
@@ -77,6 +77,62 @@ public class Car {
 
     public int getCurrentSpeed() {
         return currentSpeed;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public int getYearOfProduction() {
+        return yearOfProduction;
+    }
+
+    public void setYearOfProduction(int yearOfProduction) {
+        this.yearOfProduction = yearOfProduction;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public double getPower() {
+        return power;
+    }
+
+    public void setPower(double power) {
+        this.power = power;
+    }
+
+    public boolean isStarted() {
+        return started;
+    }
+
+    public void setStarted(boolean started) {
+        this.started = started;
+    }
+
+    public int getMaxSpeed() {
+        return maxSpeed;
+    }
+
+    public void setMaxSpeed(int maxSpeed) {
+        this.maxSpeed = maxSpeed;
+    }
+
+    public void setCurrentSpeed(int currentSpeed) {
+        this.currentSpeed = currentSpeed;
     }
 
     @Override
