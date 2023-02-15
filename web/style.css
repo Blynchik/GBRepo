@@ -1,0 +1,144 @@
+/* *- для всех элементов на странице*/
+* { 
+    /* обнуление стилей, которые есть по умолчанию в браузере */
+    /* переменные можно посмотреть в инструментах разработчика */
+    /* есть еще обнуление стилей reserf.css и normalize.css */
+    margin: 0;
+    padding: 0;
+}
+
+/* стиль для заголовка */
+h1{
+    color:blue;
+}
+
+/* стиль для класса, стиль для класса приоритетнее, поэтому перебьет стиль для заголовка */
+.title{
+    color:blueviolet
+}
+
+/*  для всей страницы */
+html{
+    /* цвет фона */
+    background-color: rgb(132, 185, 185);
+}
+
+/* можно сразу писать для нескольких объектов */
+.title, .disc{
+    /* центрирование на середине */
+    text-align: center;
+}
+
+/* можно работать сразу со несколькими селектроами в котейнере */
+.container{
+    /* центрируем автоматически */
+    /* можно задать отступы 4 числами с каждого бока, либо пары сверху и сбоку */
+    /* контейнер по умолчанию занимает всю ширину */
+    /* можно указывать в пикселях ии в процентах */
+    margin: 0 auto;
+    /* ширина контейнера */
+    max-width: 1200px;
+}
+
+.header{
+    background-color: aliceblue;
+    /* height: 150px; */
+    padding: 30px;
+    margin-top: 150px;
+}
+
+.flex{
+    display: flex;
+}
+
+.menu{
+    /* margin-top: 50px; */
+    display: flex;
+    /* растгивание по ширине */
+    justify-content: space-between;
+    /* на 100% */
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+/* формление ссылок, по сути кнопок */
+.menu-link{
+    /* выстривание в блок */
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    /* width: 100px; */
+    /* height: 40; */
+    background-color: rgb(54, 86, 76);
+    color: bisque;
+    text-align: center;
+    /* line-height: 40px; */
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    margin-bottom: 15px;
+}
+
+/* при наведение на этот блок */
+.menu-link:hover{
+    color: aliceblue;
+    background-color: antiquewhite;
+    border: 1px solid darkblue;
+}
+
+.content{
+    margin-top: 50px;
+}
+
+.item{
+    width:263px;
+    border: 1px solid rgb(46, 42, 37);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.item-pic{
+    width: 100%
+}
+
+.txt-box{
+    background-color: azure;
+    padding: 10px;
+}
+
+.item-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.big-pic{
+    width: 600px;
+    border: 1px solid rgb(46, 42, 37);
+    display: flex;
+    flex-direction: column;
+}
+
+.pic-page{
+    display: flex;
+    justify-content: center;
+}
+
+.price{
+    display: inline;
+    text-decoration: none;
+    padding: 15px;
+    background-color: rgb(233, 20, 9);
+    color: rgb(241, 237, 6);
+    text-align: left;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid greenyellow;
+    margin-bottom: 15px;
+    align-items: left;
+}
