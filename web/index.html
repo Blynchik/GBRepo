@@ -14,6 +14,7 @@
     <title>Document</title>
     <!-- подключение стиля к странице -->
     <link rel="stylesheet" href="style.css">
+    <script src=script.js></script>
 </head>
 <body>
     <!-- .block>h1>lorem5^(p>lorem10)*5  
@@ -31,6 +32,58 @@
     <!-- <h1 class="title">Мой интернет магазин</h1> -->
     <!-- p - абзац, тоже добавлен селектор -->
     <!-- <p class="disc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae aliquid ad consequuntur perferendis. Magnam, quidem dignissimos ullam a dolores iure veritatis tempore illo molestias, minus dolorem, nisi quibusdam recusandae ipsum!</p> -->
+
+    <script>
+      alert("Кукарача!");    
+    </script>
+
+    <script>
+      let a = 158;
+      let b = 2;
+      alert("Результат:" + (a + b));
+    </script>
+
+    <script>
+      let n = "Пиу-пиу"
+      alert(`Привет, ${n}!`);
+    </script>
+
+    <script>
+      let name = prompt(`Ты кто?`, `Имя`);
+      alert(`Привяу, ${name}!`);
+    </script>
+
+    <script>
+      let c = prompt(`Введи имя:`);
+      show();
+
+      function show(){
+        alert(`Ку-ку, ${c}!`);
+      }
+    </script>
+
+    <script>
+      if (confirm(`Вы уверены?`)){
+        alert(`Замечательно! Возьми с полки пирожок`)
+      } else {
+        alert(`Встань в угол и подумай`)
+      }
+    </script>
+
+    <script>
+      let age = parseInt(prompt(`Сколько лет тебе, болезный?`));
+
+      switch (age){
+        case 10: 
+          alert("Учишь уроки");
+          break;
+        case 30:
+          alert("Ходишь в магазин за пивом");
+          break;
+        default:
+          alert("Ничего с тобой не поделаешь")
+      }
+    </script>
 
     <!-- создание контейнера -->
     <div class="container">
