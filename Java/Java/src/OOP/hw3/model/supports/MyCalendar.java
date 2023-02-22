@@ -23,7 +23,7 @@ public class MyCalendar<T extends Task> {
         return taskQueue;
     }
 
-    //return all tasks for certain day
+    //return all tasks for certain day and sort it according priority
     public List<T> getTasksForTheDay(LocalDate localDate) {
 
         return taskQueue.stream()
@@ -32,7 +32,7 @@ public class MyCalendar<T extends Task> {
                 .collect(Collectors.toList());
     }
 
-    //add task to the list
+    //add task to the list and sort it according to the nearest deadline
     public void addTask(T task, String description) {
         task.setDescription(description);
         turnOnOffNotification(task);
