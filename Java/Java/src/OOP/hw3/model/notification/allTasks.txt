@@ -1,0 +1,3 @@
+Task{id=6, theme=JOB, deadline=2023-02-22T09:01:20.715159400, priority=IMPORTANT, description='Дать нагоняй графу Меншикову', notification=true, addedAt=2023-02-22T09:01:20.715159400}
+Task{id=2, theme=JOB, deadline=2023-03-02T09:01:14.549551, priority=IMPORTANT, description='Построить Санкт-Петербург', notification=true, addedAt=2023-02-22T09:01:14.550050300}, responsible=Responsible{name='Петр I', surname='Романов'}
+Task{id=4, theme=HOBBY, deadline=2023-03-03T09:01:17.858903, priority=USUAL, description='Покататься на бриге', notification=true, addedAt=2023-02-22T09:01:17.858903}
