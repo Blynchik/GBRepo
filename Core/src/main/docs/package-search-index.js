@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"org.example.clazz"},{"l":"org.example.entrance"}];updateSearchResults();

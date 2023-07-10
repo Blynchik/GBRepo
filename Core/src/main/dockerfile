@@ -1,0 +1,16 @@
+FROM bellsoft/liberica-openjdk-alpine:11.0.10
+
+COPY ./java ./src
+RUN mkdir ./out
+RUN javac -sourcepath ./src -d out src/org/example/entrance/App.java
+CMD java -classpath ./out org.example.entrance.App
+
+#WORKDIR /app
+#COPY ./java ./src
+#RUN mkdir ./out
+#RUN javac -sourcepath ./src -d out src/org/example/entrance/App.java
+#
+#FROM scratch as OutputFiles
+#COPY --from=BuildProject /app/out/bin
+
+
