@@ -5,10 +5,10 @@ import java.util.List;
 
 public class WorkerStorage {
 
-    private List<AbstractWorker> workers;
+    private AbstractWorker[] workers;
 
-    public WorkerStorage(){
-        workers = new ArrayList<>();
+    public WorkerStorage(int numOfWorkers){
+        workers = new AbstractWorker[numOfWorkers];
     }
 
     public void printWorkers(){
@@ -17,7 +17,7 @@ public class WorkerStorage {
         }
     }
 
-    public void setWorkers(List<AbstractWorker> workers){
+    public void setWorkers(AbstractWorker[] workers){
         this.workers = workers;
     }
 }
