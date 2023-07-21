@@ -32,7 +32,7 @@ public class Program {
             System.out.println(worker.getAverageSalary());
         }
 
-        WorkerStorage workerStorage = new WorkerStorage(20);
+        WorkerStorage workerStorage = new WorkerStorage(10);
 
         workerStorage.setWorkers(workers);
         System.out.println("=====================");
