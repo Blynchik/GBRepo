@@ -16,5 +16,6 @@
     <orderEntry type="library" exported="" name="net.bytebuddy.byte.buddy" level="project" />
     <orderEntry type="library" exported="" name="net.bytebuddy.byte.buddy.agent" level="project" />
     <orderEntry type="library" exported="" name="fitbur.external.objenesis" level="project" />
+    <orderEntry type="library" exported="" name="checkstyle" level="project" />
   </component>
 </module>
