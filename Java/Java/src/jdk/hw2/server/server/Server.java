@@ -10,7 +10,7 @@ import java.util.List;
 public class Server {
     public static final String LOG_PATH = "src/jdk/hw2/server/server/log.txt";
     List<Client> clientList;
-    ServerWindow serverWindow;
+    ServerView serverWindow;
     boolean work;
 
     public Server(ServerWindow serverWindow) {
@@ -98,6 +98,6 @@ public class Server {
     }
 
     private void printText(String text) {
-        serverWindow.log.append(text + "\n");
+        serverWindow.appendLog(text + "\n");
     }
 }

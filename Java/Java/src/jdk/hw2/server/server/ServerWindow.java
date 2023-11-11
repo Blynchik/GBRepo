@@ -6,7 +6,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class ServerWindow extends JFrame {
+public class ServerWindow extends JFrame implements ServerView{
     public static final int WIDTH = 400;
     public static final int HEIGHT = 300;
 
@@ -28,7 +28,7 @@ public class ServerWindow extends JFrame {
         setVisible(true);
     }
 
-    private void appendLog(String text) {
+    public void appendLog(String text) {
         log.append(text + "\n");
     }
 

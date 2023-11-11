@@ -2,7 +2,6 @@ package jdk.hw2.server.client;
 
 
 import jdk.hw2.server.server.Server;
-import jdk.hw2.server.server.ServerWindow;
 
 import javax.swing.*;
 import java.awt.*;
